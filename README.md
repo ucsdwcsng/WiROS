@@ -21,7 +21,7 @@ To get started with WiROS, clone these repositories into the `src` folder of you
 
 ## Example usage of WiROS 
 
-WiROS can be easily leveraged to incorporate WiFi sensors to solve many applicable problems in robotics. We provide several simple example use cases of [here]() TODO: Add link.
+WiROS can be easily leveraged to incorporate WiFi sensors to solve many applicable problems in robotics. We provide the following sample use-cases:
 
 1. **Kidnapped Robot Problem**: A lost robot in an indoor envrionment can be conveniently localized using WiROS. Given a prior map of the existing Access points and additional details of their antenna geometry, the robot's location can be triangulated in a space. 
 2. **Correct for Robot Location Drift**: WiFi measurements can be additionally fused with Camera and odometry measurements to more accurately correct for sensor drifts and resolve ambiguities arising from perceptual aliasing in indoor environment[3]. 
