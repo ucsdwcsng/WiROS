@@ -11,7 +11,7 @@ This is an index repository to access the following components of WiROS
 
 1. Easily integrate WiFi channel state measurements, received signal strength and other WiFi MAC-layer information into your robot sensor stack. 
 2. Exposes all relevant measurements as accessible ROS topics. See [`rf_msgs`](https://github.com/ucsdwcsng/rf_msgs) for more details.  
-3. Builds a framework for hassle-free [wireless calibration]() of wireless sensors. TODO: add link
+3. Builds a framework for hassle-free [wireless calibration](https://github.com/ucsdwcsng/wiros_processing_node/blob/main/README.md#dynamic-compensation) of wireless sensors.
 4. Provides visualizations for WiFi signals which are helpful for algorithm paramter tuning and debugging 
 5. Open-sources implementation of various state-of-art WiFi processing algorithms[2, 3, 4]. 
 
