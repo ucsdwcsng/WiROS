@@ -17,7 +17,7 @@ This is an index repository to access the following components of WiROS
 
 ## Getting Started
 
-To get started with WiROS, clone these repositories into the `src` folder of your catkin workspace, and follow the [README](https://anonymous.4open.science/r/wiros_csi_node-7985/README.md) in the [CSI Node](https://anonymous.4open.science/r/wiros_csi_node-7985/) to configure your hardware.   
+To get started with WiROS, clone these repositories into the `src` folder of your catkin workspace, and follow the [README](https://anonymous.4open.science/r/wiros_csi_node-7985/README.md) in the [CSI Node](https://anonymous.4open.science/r/wiros_csi_node-7985//) to configure your hardware.   
 
 ## Example usage of WiROS 
 
