@@ -3,7 +3,7 @@
 WiROS is a plug-and-play WiFi sensing toolbox allowing researchers to access coarse grained WiFi signal strength (RSSI), fine grained WiFi channel state information (CSI), and other MAC-layer information (device address, packet id’s or frequency-channel information). Additionally, WiROS open-sources state of-art algorithms to calibration and process WiFi measurements to furnish accurate bearing information for received WiFi signals. 
 
 This is an index repository to access the following components of WiROS
-1. [**CSI Node**](https://anonymous.4open.science/r/wiros_csi_node-7985/) - Extends the Nexmon CSI toolkit[1] to provide a ROS overlay. 
+1. [**CSI Node**](https://anonymous.4open.science/r/wiros_csi_node-7985) - Extends the Nexmon CSI toolkit[1] to provide a ROS overlay. 
 2. [**Processing Node**](https://anonymous.4open.science/r/wiros_processing_node-ED34/) - Provide calibration and post-processing of WiFi CSI measurments. Open-sources mulitple state-of-art bearing extraction algorithms to measure both the angle of arrival (at the receiver) and angle of departure (from the transmitter) of the WiFi signal.
 3. [**RF Messages format**](https://anonymous.4open.science/r/rf_msgs-D2F5/) - Custom ROS messages to structure WiFi measurements information. 
 
