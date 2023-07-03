@@ -3,21 +3,21 @@
 WiROS is a plug-and-play WiFi sensing toolbox allowing researchers to access coarse grained WiFi signal strength (RSSI), fine grained WiFi channel state information (CSI), and other MAC-layer information (device address, packet id’s or frequency-channel information). Additionally, WiROS open-sources state of-art algorithms to calibration and process WiFi measurements to furnish accurate bearing information for received WiFi signals. 
 
 This is an index repository to access the following components of WiROS
-1. [**CSI Node**](https://github.com/ucsdwcsng/wiros_csi_node) - Extends the Nexmon CSI toolkit[1] to provide a ROS overlay. 
-2. [**Processing Node**](https://github.com/ucsdwcsng/wiros_processing_node) - Provide calibration and post-processing of WiFi CSI measurments. Open-sources mulitple state-of-art bearing extraction algorithms to measure both the angle of arrival (at the receiver) and angle of departure (from the transmitter) of the WiFi signal.
-3. [**RF Messages format**](https://github.com/ucsdwcsng/rf_msgs) - Custom ROS messages to structure WiFi measurements information. 
+1. [**CSI Node**](https://anonymous.4open.science/r/wiros_csi_node-7985/) - Extends the Nexmon CSI toolkit[1] to provide a ROS overlay. 
+2. [**Processing Node**](https://anonymous.4open.science/r/wiros_processing_node-ED34/) - Provide calibration and post-processing of WiFi CSI measurments. Open-sources mulitple state-of-art bearing extraction algorithms to measure both the angle of arrival (at the receiver) and angle of departure (from the transmitter) of the WiFi signal.
+3. [**RF Messages format**](https://anonymous.4open.science/r/rf_msgs-D2F5/) - Custom ROS messages to structure WiFi measurements information. 
 
 ## Overview of Features
 
 1. Easily integrate WiFi channel state measurements, received signal strength and other WiFi MAC-layer information into your robot sensor stack. 
-2. Exposes all relevant measurements as accessible ROS topics. See [`rf_msgs`](https://github.com/ucsdwcsng/rf_msgs) for more details.  
-3. Builds a framework for hassle-free [wireless calibration](https://github.com/ucsdwcsng/wiros_processing_node/blob/main/README.md#dynamic-compensation) of wireless sensors.
+2. Exposes all relevant measurements as accessible ROS topics. See [`rf_msgs`](https://anonymous.4open.science/r/rf_msgs-D2F5/) for more details.  
+3. Builds a framework for hassle-free [wireless calibration](https://anonymous.4open.science/r/wiros_processing_node-ED34/README.md#dynamic-compensation) of wireless sensors.
 4. Provides visualizations for WiFi signals which are helpful for algorithm paramter tuning and debugging 
 5. Open-sources implementation of various state-of-art WiFi processing algorithms[2, 3, 4]. 
 
 ## Getting Started
 
-To get started with WiROS, clone these repositories into the `src` folder of your catkin workspace, and follow the [README](https://github.com/ucsdwcsng/wiros_csi_node/blob/main/README.md) in the [CSI Node](https://github.com/ucsdwcsng/wiros_csi_node) to configure your hardware.   
+To get started with WiROS, clone these repositories into the `src` folder of your catkin workspace, and follow the [README](https://anonymous.4open.science/r/wiros_csi_node-7985/README.md) in the [CSI Node](https://anonymous.4open.science/r/wiros_csi_node-7985/) to configure your hardware.   
 
 ## Example usage of WiROS 
 
